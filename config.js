@@ -98,18 +98,18 @@ window.SITE_CONFIG = {
     title: "Methodology",
     steps: [
       {
-        title: "Step 1: Train Scheduling and Signaling (SUMO Simulation)",
-				text: "Build the rail network and test routing, signaling, and timetables.",
+        title: "Step 1: Network Development and HDV Baseline",
+				text: "Build the road network in SUMO using GIS data, then add demand and signal timings to establish a 100% HDV baseline.",
         image: "assets/img/image2.jpg"
       },
       {
-				title: "Step 2: Digital Twin Assets Developement (Blender)",
-				text: "Create a 3D railway assets using generative AI and blender.",
+				title: "Step 2: Controlled 100% CAV Simulation",
+				text: "Alter behaviours of drivers to mimic a CAV while all other parameters remain the same.",
         image: "assets/img/image3.jpg"
       },
       {
-				title: "Step 3: Immersive VR Visualization (Unity)",
-				text: "Create a 3D railway scene and produce a VR 360-degree video.",
+				title: "Step 3: Signal Timing Intervention",
+				text: "Change the signal timings of the intersection and observe to see if it improves traffic flow.",
         image: "assets/img/image4.jpg"
       },
       {
