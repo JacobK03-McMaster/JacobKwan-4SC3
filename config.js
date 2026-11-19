@@ -58,12 +58,12 @@ window.SITE_CONFIG = {
 
   intro: {
     projectTitleLabel: "Project Title",
-    projectTitle: "Development of Digital Twin of a Railway Corridor Using Unity Game Engine and SUMO Traffic Simulation",
+    projectTitle: "Mini Project A - Roadway Traffic Simulation and Analysis (SUMO)",
     heroVideo: "assets/video/video.mp4",
     heroVideoPoster: "",
     heroVideoAlt: "Autoplay preview video (academic project)",
     videoCaption:
-      "Autoplay preview (≈20 seconds): raw video → Traffic Simulation → Blender → Unity → Results"
+      "Comparison of intersection traffic: Base Scenario (100% HDV) vs. Scenario 1 (100% CAV)"
   },
 
   caseStudy: {
