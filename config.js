@@ -196,14 +196,17 @@ window.SITE_CONFIG = {
       "This section clarifies academic context, roles, tools, and sources. Clear attribution improves credibility and shows ethical data handling.",
 
     members: [
-      { name: "Your Name", role: "Rail Scheduling & Signaling + Digital Twin I, Immersive VR Visualization + Results & Communication" }
+      { name: "Jacob Kwan", role: "SUMO Road Network Development + Traffic Demand and Signal Configuration"},
+ 	  { name: "Tommy Ouyang", role: "HDV/CAV Scenario Development + Intervention Design and Implementation"},
+      { name: "Nicolas Jao", role: "Results Analysis and Visualization + Report Writing and Referencing"},
+
     ],
 
     acknowledgments: [
       "Workshop: Railway Engineering",
       "Institution: RoadwayVR University",
       "Instructor: Ahmad Mohammadi",
-      "Tools: SUMO, Blender, Unity, Python"
+      "Tools: SUMO"
     ],
 
     repoLabel: "Project Repository",
