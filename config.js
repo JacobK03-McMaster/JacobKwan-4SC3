@@ -165,28 +165,28 @@ window.SITE_CONFIG = {
 	results: {
 			title: "Results & Potential Improvements",
 			subtitle:
-				"Train schedule simulation outputs across two scenarios showing arrivals, departures, and dwell time across four stations. Results are for educational purposes only.",
+				"Road network traffic across a specified edge, comparing two scenarios. Results are for educational purposes only.",
 
 			charts: {
 				left: {
-					title: "Scenario 1 — Train Schedule: Arrivals, Departures & Dwell Time",
+					title: "Base Scenario: 100% HDV — Speed-Density Diagram of Edge 78",
 					src: "assets/img/image6.jpg",
-					alt: "Scenario 1 train schedule chart showing arrivals and departures across S1 to S4"
+					alt: "Base scenario showing HDV traffic at the intersection across edge 78"
 				},
 				right: {
-					title: "Scenario 2 — Train Schedule: Arrivals, Departures & Dwell Time",
+					title: "Scenario 1: 100% CAV — Speed-Density Diagram of Edge 78",
 					src: "assets/img/image7.jpg",
-					alt: "Scenario 2 train schedule chart showing arrivals and departures across S1 to S4"
+					alt: "Scenario 2 showing CAV traffic at the intersection across edge 78"
 				}
 			},
 
 			discussionTitle: "Discussion",
 			discussionBullets: [
-				"Scenario 1 provides a stable baseline timetable with consistent station dwell and smooth train progression.",
-				"Scenario 2 applies a delay at S2, which then propagates to downstream stations.",
-				"Delay effects grow across frequency levels, with major increases in arrival and departure times at S3 and S4.",
-				"S1 is only slightly affected, while downstream stations absorb most of the disruption.",
-				"This demonstrates the importance of recovery time, dwell management, and operational control in rail scheduling."
+				"The recommendation is for the City not to implement the 41 s green on this evidence alone, and to commission further analysis with field data, delay metrics, and both approaches.",
+				"Baseline (100% HDV) on edge E78 fits well (R² = 0.841) with about 816 veh/h capacity, and speeds below 2 m/s at about 100 veh/km indicate queue buildup.",
+				"The 100% AV scenario is nearly identical (R² = 0.836, about 822 veh/h), since the signal, not car-following, governs speed on this edge.",
+				"The 41 s east-west green gives a mixed result: capacity rises about 2.5% to about 837 veh/h, but R² falls to 0.744.",
+				"Limitations include assumed inputs, a single run and edge, and no calibration, so the evidence supports further study, not implementation."
 			]
 		},
 
