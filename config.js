@@ -124,29 +124,29 @@ window.SITE_CONFIG = {
     title: "Methodology Steps (Demo Modules)",
     modules: [
       {
-        title: "Module 1: Train Scheduling & Signaling (SUMO)",
+        title: "Module 1: Network Development and HDV Baseline",
         bullets: [
-				  { text: "Build a simulated rail network in SUMO with train routing and maximum operating speed." },
-          { text: "Design fixed-block rail signals and define station stops along the corridor." },
-          { text: "Configure timetable, scheduled departures, running time, dwell time, and headway." }
+		  { text: "Build a SUMO road network of the Steeles Ave W and Keele St intersection from GIS data, including lanes, turning lanes, and junction connections." },
+          { text: "Configure traffic demand, signal timing, and default HDV passenger cars, with 450 veh/h east-west, 300 veh/h north-south, and a 60 s cycle." },
+          { text: "Run the baseline simulation and generate the speed-density diagram for edge E78 from edgeData output." }
         ],
         image: "assets/img/image2.jpg"
       },
       {
-        title: "Module 2: Digital Twin Assets Developement (Blender)",
+        title: "Module 2: Controlled 100% CAV Simulation",
         bullets: [
-          { text: "Generative AI: use Meshy.ai tool to develop different assets." },
-          { text: "From generative AI to belnder." },
-          { text: "Preprocessing assets in Blender ." }
+          { text: "Replace all HDVs with CAVs while holding geometry, demand, routes, signals, and duration constant." },
+          { text: "Define CAV car-following parameters, including a 0.6 s time headway, 1.5 m minimum gap, and stronger acceleration and braking." },
+          { text: "Compare the CAV speed-density relationship on edge E78 against the HDV baseline to isolate the effect of vehicle behaviour.." }
         ],
         image: "assets/img/image3.jpg"
       },
       {
-        title: "Module 3: Immersive VR Visualization (Unity)",
+        title: "Module 3: Signal Timing Intervention",
         bullets: [
-				  { text: "Develop a 3D railway environment including stations, buildings, trees, and rolling stock." },
-          { text: "Configure visualization fundamentals: lighting, camera position, time of day, and scene composition." },
-          { text: "Produce a VR 360-degree video output for immersive presentation and portfolio use." }
+		  { text: "Diagnose queue buildup on the east-west approaches, where demand (450 veh/h) exceeds the north-south movement (300 veh/h)." },
+          { text: "Extend the east-west green from 27 s to 41 s, keep the north-south green at 27 s, and run Scenario 2 with 100% HDVs." },
+          { text: "Compare before-and-after speed-density results on edge E78 to evaluate changes in speed, congestion onset, and capacity." }
         ],
         image: "assets/img/image4.jpg"
       },
