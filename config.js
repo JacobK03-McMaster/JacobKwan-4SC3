@@ -71,25 +71,25 @@ window.SITE_CONFIG = {
 
     backgroundTitle: "Background",
     backgroundBullets: [
-			"Global freight rail is growing and remains strategically important.",
-			"Rail carries about 18% of EU inland freight, 36% in the U.S., and 27% in India.",
-			"Road dominates many freight systems, so rail often receives less attention.",
-			"In Canada, rail accounted for 10.5% of international merchandise trade value in 2024."
+			"Traffic is a daily cost, with congestion causing queues, delays, and wasted fuel/emissions.",
+			"Simulations can be used by traffic engineers to test new technologies and modified parameters.",
+			"Conencted autonomous vehicles (CAVs) change how traffic flows.",
+			"Benefits of adding CAVs to our roads are not guaranteed."
     ],
 
     problemTitle: "Problem Statement",
     problemBullets: [
-			"Railway operations are hard to assess.",
-			"3D asset creation is time-consuming.",
-			"2D models lack immersion.",
+			"No digital baseline exists for the given intersection.",
+			"Effects of CAVs on the selected road are untested.",
+			"There is no before-and-after evidence for the timing intervention.",
 			"Results are difficult to communicate."
     ],
 
     objectivesTitle: "Project Objectives",
     objectivesBullets: [
-			"Simulate train scheduling, signaling, and capacity in SUMO.",
-			"Create 3D digital assets using generative AI and blender.",
-			"Create 3D rail environment and VR video in Unity.",
+			"Build the digital simulation and HDV baseline.",
+			"Compare 100% CAV beahviours against the baseline.",
+			"Evaluate the effects of a signal timing intervention.",
 			"Present results in different styles through KPIs, figures, and a showcase website."
     ]
   },
